@@ -11,6 +11,8 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import User from "./pages/User";
+import Createuser from "./pages/Createuser";
+import Edituser from "./pages/Edituser";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/user" element={<User/>} />
+          <Route path="/createuser" element={<Createuser/>} />
+          <Route path="/edituser/:id" element={<Edituser/>} />
         </Route>
 
       </Routes>
